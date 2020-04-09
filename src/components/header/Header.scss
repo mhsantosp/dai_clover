@@ -1,0 +1,49 @@
+//@import './src/sass/daiclover.scss';
+
+.header {
+  nav {
+    background-color: #fffffff2;
+    justify-content: space-between;
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    a {
+      &#logo {
+        width: 200px;
+        height: 50px;
+        background-image: url("../../images/logos/logo1.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        &:hover {
+          background-image: url("../../images/logos/logo2.png");
+          background-size: 100% 100%;
+          // margin-top: -10px;
+        }
+      }
+      img {
+        width: 50px;
+        height: auto;
+      }
+    }
+    div.navbar-collapse {
+      ul.navbar-nav {
+        li.nav-item {
+          .nav-link {
+            &:hover {
+              color: black;
+              font-weight: bold;
+            }
+            &.active {
+              // border-bottom: 2px solid purple;
+              // color: black;
+              // font-weight: bold;
+            }
+          }
+          .dropdown-menu {
+            background-color: #fffffff2;
+            border: 1px solid #fffffff2;
+            .dropdown-item {}
+          }
+        }
+      }
+    }
+  }
+}

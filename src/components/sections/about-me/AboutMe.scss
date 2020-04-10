@@ -10,7 +10,7 @@
         text-decoration: none;
       }
       .card-body {
-        background-color: transparent;
+        background-color: white;
         background-image: url("../../../images/backgrounds/Page-Turner.svg"); /* background by SVGBackgrounds.com */
         background-size: cover;
         background-repeat: no-repeat;
@@ -40,7 +40,7 @@
           transform-style: preserve-3d;
           transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
           .front, .back {
-            background-color: transparent;
+            background-color: white;
             background-image: url("../../../images/backgrounds/Scattered-Forcefields.svg"); /* background by SVGBackgrounds.com */
             position: absolute;
             width: 100%;

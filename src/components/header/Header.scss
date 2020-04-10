@@ -44,15 +44,19 @@
       ul.navbar-nav {
         li.nav-item {
           .nav-link {
+            // padding: .5rem 1rem;
+            // padding-right: .5rem;
+            // padding-left: .5rem;
+            // color: rgba(0,0,0,.5);
             &:hover {
               color: purple;
               font-weight: bold;
             }
 
             &.active {
-              // border-bottom: 2px solid purple;
-              // color: black;
+              // color: purple;
               // font-weight: bold;
+              // border-bottom: 2px solid purple;
             }
           }
 

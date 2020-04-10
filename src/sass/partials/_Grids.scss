@@ -13,15 +13,3 @@ $desktopWideWidth: $wide;
 $mobile: max-width $tab;
 $tablet: max-width $desk;
 $desktop: max-width $wide;
-
-// TODO: Clean this up -- most likely not going to be using this.
-$grids: 4;
-$grids: add-grid(12 at $tabletWidth);
-
-$gutters: 1/3;
-
-$widthLeftLinks: 33%;
-$widthFootherBlockFirts: $widthLeftLinks - 6;
-$widthFootherBlock: (((100 - $widthFootherBlockFirts) / 4) - 0.2);
-
-$widthLeftLogoWide: 25%;

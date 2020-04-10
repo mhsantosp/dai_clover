@@ -12,7 +12,6 @@ import arandaMovie from '../../../images/projects/web_design/arandaMovie.png';
 import pwc from '../../../images/projects/web_design/pwc.png';
 import logo1 from '../../../images/projects/logo_design/logo1.png';
 import card_aptos from '../../../images/projects/business_cards/card_aptos.png';
-import card_presentacion from '../../../images/projects/business_cards/card_presentacion.png';
 import card_presentation from '../../../images/projects/business_cards/card_presentation.jpeg';
 
 class Briefcase extends Component {
@@ -149,7 +148,7 @@ class Briefcase extends Component {
 
           <div className="tab-pane fade" id="logotipos" role="tabpanel" aria-labelledby="logotipos-tab">
             <h3 className="my-3 d-none">Logotipos</h3>
-            <div className="container">
+            <div className="container mt-3">
               <div className="row row-cols-1 row-cols-md-3 justify-content-center">
                 <div className="col mb-4">
                   <div className="card h-100">
@@ -165,21 +164,13 @@ class Briefcase extends Component {
 
           <div className="tab-pane fade" id="business_cards" role="tabpanel" aria-labelledby="business_cards-tab">
             <h3 className="my-3 d-none">Tarjetas</h3>
-            <div className="container">
+            <div className="container mt-3">
               <div className="row row-cols-1 row-cols-md-3 justify-content-center">
                 <div className="col mb-4">
                   <div className="card h-100">
                     <img src={card_aptos} className="card-img-top" alt="..." style={{width: "40%", margin: "auto"}} />
                     <div className="card-body">
                       <h5 className="card-title">Diseño Tarjeta de Acceso</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col mb-4">
-                  <div className="card h-100">
-                    <img src={card_presentacion} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <h5 className="card-title">Diseño Tarjeta de Presentación</h5>
                     </div>
                   </div>
                 </div>

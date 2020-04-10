@@ -1,81 +1,106 @@
 @import './src/sass/daiclover.scss';
 
-html, body {
+html,
+body {
   height: 100%;
+
+  /* scroll */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
 }
 
 body {
   background-color: #ffffff;
-  background-image: url("../src/images/backgrounds/Pattern-Randomized.svg");
-  /* background by SVGBackgrounds.com */
+  background-image: url("../src/images/backgrounds/Pattern-Randomized.svg"); /* background by SVGBackgrounds.com */
   background-attachment: fixed;
   background-size: cover;
+
   #root {
     height: 100%;
+
     .App {
       height: 100%;
-    
+
       header {
         font-family: 'Bad Script', cursive;
-        height: 70px;
       }
-    
+
       main {
         min-height: calc(100% - 138px);
-    
+
         section {
-          a {
-            font-family: 'Fondamento', cursive;
+          h1 {
+            font-family: 'Life Savers', cursive;
           }
-    
+
+          h2 {
+            font-family: 'Rye', cursive;
+          }
+
+          h3 {
+            font-family: 'Merienda', cursive;
+          }
+
+          h4 {
+            font-family: 'Crimson Text', serif;
+          }
+
+          h5 {
+            font-family: 'Fredericka the Great', cursive;
+          }
+
+          h6 {
+            font-family: 'Marck Script', cursive;
+          }
+
+          // h1, h2, h3, h4, h5, h6 {
+          //   button {
+          //     font-family: 'Caveat', cursive;
+          //   }
+          // }
+
+          label, ul li {
+            font-family: 'Kalam', cursive;
+          }
+
+          button {
+            font-family: 'Courgette', cursive;
+          }
+
           p {
             font-family: 'Comic Neue', cursive;
             text-align: left;
           }
-    
+
           span {
             font-family: 'Bellota', cursive;
           }
-    
-          h1 {
-            font-family: Gotham-Medium;
+
+          a {
+            font-family: 'Fondamento', cursive;
+
+            span {
+              font-family: 'Dancing Script', cursive;
+            }
           }
-    
-          h2 {
-            font-family: 'Rye', cursive;
-          }
-    
-          h3 {
-            font-family: 'Merienda', cursive;
-          }
-    
-          h4 {
-            font-family: 'Special Elite', cursive;
-          }
-    
-          h5 {
-            font-family: 'Fredericka the Great', cursive;
-          }
+
         }
       }
-    
+
       footer {
         height: 68px;
-      }
-    
-      /* scroll */
-      ::-webkit-scrollbar {
-        width: 12px;
-      }
-    
-      ::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-        border-radius: 10px;
-      }
-    
-      ::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        font-family: 'Marck Script', cursive;
       }
     }
   }

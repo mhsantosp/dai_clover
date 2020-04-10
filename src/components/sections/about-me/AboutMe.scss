@@ -1,216 +1,163 @@
 @import './src/sass/daiclover.scss';
 
 .Sobre_Mi {
-  header {
-    nav.navbar {
-      div#nav-tab {
-        border-bottom: none;
-        font-size: 15px;
-        a.nav-item.nav-link {
-          &.active {
-            &#front-end-tab {
-              border: 1px solid purple;
-              border-radius: 3.5rem .25rem;
-              border-bottom: none;
-            }
-            &#back-end-tab {
-              border: 1px solid #ff0063;
-              border-radius: 3.5rem .25rem;
-              border-bottom: none;
-            }
-          }
-          &:hover {
-            &#front-end-tab {
-              border: 1px solid purple;
-              border-radius: 3.5rem .25rem;
-            }
-            &#back-end-tab {
-              border: 1px solid #ff0063;
-              border-radius: 3.5rem .25rem;
-            }
-          }
-        }
-      }
+  div.education {
+    h3 {
+      margin-bottom: .75rem;
     }
-  }
-  div#nav-tabContent {
-    .perfil {
-      img#perfil-front {
-        width: 100%;
+    .accordion {
+      button {
+        text-decoration: none;
       }
-      .photo {
-        background-repeat: no-repeat;
-        background-image: url('../../../images/perfil/frond-maria.jpg');
+      .card-body {
+        background-color: transparent;
+        background-image: url("../../../images/backgrounds/Page-Turner.svg"); /* background by SVGBackgrounds.com */
         background-size: cover;
-        width: 150px;
-        height: 150px;
-        margin: 15px;
-        background-color: #de2b9fcc;
-        border: 6px solid white;
-        border-top-color: #800080c9;
-        border-left-color: #000000c7;
-        border-right-color: #800080c9;
-        border-bottom-color: #000000c7;
-        border-radius: 50%;
-        float: left;
-        shape-outside: circle() margin-box;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        img#perfil-back {
-          width: 100%;
-        }
-      }
-    }
-
-    div.education {
-      .accordion {
-        button {
-          text-decoration: none;
-        }
+        background-repeat: no-repeat;
         figure {
           img {}
         }
       }
     }
-    div.skillsJob {
-      .cardWrapper {
-        .card {
-          height: 300px;
-          perspective: 1500px;
-          background-color: transparent;
-          border: none;
-          .more {
-            display: none;
-            &:checked~.content {
-              transform: rotateY(180deg);
+  }
+  div.skills {
+    .cardWrapper {
+      .card {
+        height: 300px;
+        perspective: 1500px;
+        background-color: transparent;
+        border: none;
+        .more {
+          display: none;
+          &:checked~.content {
+            transform: rotateY(180deg);
+          }
+        }
+        .content {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          transform-style: preserve-3d;
+          transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+          .front, .back {
+            background-color: transparent;
+            background-image: url("../../../images/backgrounds/Scattered-Forcefields.svg"); /* background by SVGBackgrounds.com */
+            position: absolute;
+            width: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transform-style: preserve-3d;
+            border-radius: 6px;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            .card-body {
+              transform: translateZ(80px) scale(0.94);
+              
+              width: 100%;
+              display: flex;
+              align-items: center;
+              hr {
+                width: 100%;
+                margin-top: .15rem;
+                margin-bottom: .3rem;
+              }
+              h4.card-title {}
+              h5.card-subtitle, .prom {
+                text-align: right;
+              }
+              p {
+                margin-bottom: .25rem;
+              }
+              p.prom {
+                margin-top: .25rem;
+                margin-bottom: 1rem;
+                display: block;
+                font-size: 80%;
+                color: #6c757d;
+                &.prom:before {
+                  content: "\2014\00A0";
+                }
+              }
+              ul {
+                text-align: left;
+                li {
+                  padding: .25rem .50rem;
+                  background-color: transparent;
+                  border: none;
+                }
+              }
+            }
+            .rotate-btn {
+              background-color: #ec407a;
+              z-index: 1;
+              margin: 10px;
+              cursor: pointer;
+              border-radius: 50%;
+              border: solid 2px #fff;
+              -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+              box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+              -webkit-transition: all 0.2s ease-in-out;
+              transition: all 0.2s ease-in-out;
+              width: 40px;
+              height: 40px;
+              &:hover {
+                background-color: #e940ecd1;
+                box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+                text-shadow: none;
+              }
+              &.return {
+                text-shadow: none;
+                &:hover {
+                  background-color: #355cc9ad;
+                  box-shadow: none;
+                }
+              }
+              i {
+                color: #fff;
+                font-size: 1.25rem;
+              }
             }
           }
-          .content {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            transform-style: preserve-3d;
-            transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
-            .front, .back {
-              background-color: transparent;
-              background-image: url("../../../images/backgrounds/Scattered-Forcefields.svg"); /* background by SVGBackgrounds.com */
+          .front {
+            &:after {
+              content: '';
               position: absolute;
+              top: 0;
+              left: 0;
               width: 100%;
               height: 100%;
-              -webkit-backface-visibility: hidden;
-              backface-visibility: hidden;
-              transform-style: preserve-3d;
+              display: block;
               border-radius: 6px;
-              border: 1px solid rgba(0, 0, 0, 0.125);
-              .card-body {
-                transform: translateZ(80px) scale(0.94);
-                
-                width: 100%;
-                display: flex;
-                align-items: center;
-                hr {
-                  width: 100%;
-                  margin-top: .15rem;
-                  margin-bottom: .3rem;
-                }
-                h4.card-title {}
-                h5.card-subtitle, .prom {
-                  text-align: right;
-                }
-                p {
-                  margin-bottom: .25rem;
-                }
-                p.prom {
-                  margin-top: .25rem;
-                  margin-bottom: 1rem;
-                  display: block;
-                  font-size: 80%;
-                  color: #6c757d;
-                  &.prom:before {
-                    content: "\2014\00A0";
-                  }
-                }
-                ul {
-                  text-align: left;
-                  li {
-                    padding: .25rem .50rem;
-                    background-color: transparent;
-                    border: none;
-                  }
-                }
-              }
-              .rotate-btn {
-                background-color: #ec407a;
-                z-index: 1;
-                margin: 10px;
-                cursor: pointer;
-                border-radius: 50%;
-                border: solid 2px #fff;
-                -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-                box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-                -webkit-transition: all 0.2s ease-in-out;
-                transition: all 0.2s ease-in-out;
-                width: 40px;
-                height: 40px;
-                &:hover {
-                  background-color: #e940ecd1;
-                  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-                  text-shadow: none;
-                }
-                &.return {
-                  text-shadow: none;
-                  &:hover {
-                    background-color: #355cc9ad;
-                    box-shadow: none;
-                  }
-                }
-                i {
-                  color: #fff;
-                  font-size: 1.25rem;
-                }
-              }
             }
-            .front {
-              &:after {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                display: block;
-                border-radius: 6px;
-              }
-            }
-            .back {
-              transform: rotateY(180deg);
-            }
+          }
+          .back {
+            transform: rotateY(180deg);
           }
         }
       }
     }
-    .redes {
-      padding: .25rem;
+  }
+  .redes {
+    padding: .25rem;
+    font-size: 20px;
+    list-style: none;
+    margin: auto;
+    a.btn-social {
+      margin: .25rem;
       font-size: 20px;
-      list-style: none;
-      margin: auto;
-      a.btn-social {
-        margin: .25rem;
-        font-size: 20px;
-        .fa-facebook-f {
-          color: $facebook;
-        }
-        .fa-linkedin-in {
-          color: $linkedin;
-        }
-        .fa-github {
-          color: $github;
-        }
-        &:hover {
-          i.fab,
-          .torreCO {
-            font-size: 25px;
-            margin-top: -10px;
-          }
+      .fa-facebook-f {
+        color: $facebook;
+      }
+      .fa-linkedin-in {
+        color: $linkedin;
+      }
+      .fa-github {
+        color: $github;
+      }
+      &:hover {
+        i.fab,
+        .torreCO {
+          font-size: 25px;
+          margin-top: -10px;
         }
       }
     }

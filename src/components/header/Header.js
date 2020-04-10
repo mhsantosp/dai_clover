@@ -11,25 +11,26 @@ class Header extends React.Component {
       <header className="header">
         <nav className="navbar fixed-top navbar-expand-lg navbar-light">
           <div className="container">
-            <NavLink to="/" className="navbar-brand" id="logo" ></NavLink>
+            <NavLink to="/dai_clover/" className="navbar-brand" id="logo" ></NavLink>
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="hamburguer">
+              <i className="fas fa-bars"></i>
+              {/* <i className="fas fa-times"></i> */}
             </button>
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul className="navbar-nav">
-                <li className={this.getNavLinkClass("/"), "nav-item"}>
-                  <NavLink to="/" className="nav-link" >
+                <li className={this.getNavLinkClass("/dai_clover/"), "nav-item"}>
+                  <NavLink to="/dai_clover/" className="nav-link" >
                     <i className="fas fa-home"></i>&nbsp;Inicio
                     <span className="sr-only">(current)</span>
                   </NavLink>
                 </li>
-                <li className={this.getNavLinkClass("/Sobre-Mi"), "nav-item"}>
-                  <NavLink to="/Sobre-Mi" className="nav-link" >Sobre Mí</NavLink>
+                <li className={this.getNavLinkClass("/dai_clover/Sobre-Mi"), "nav-item"}>
+                  <NavLink to="/dai_clover/Sobre-Mi" className="nav-link" >Sobre Mí</NavLink>
                 </li>
-                <li className={this.getNavLinkClass("/Portafolio"), "nav-item"}>
-                  <NavLink to="/Portafolio" className="nav-link" >Portafolio</NavLink>
+                <li className={this.getNavLinkClass("/dai_clover/Portafolio"), "nav-item"}>
+                  <NavLink to="/dai_clover/Portafolio" className="nav-link" >Portafolio</NavLink>
                 </li>
               </ul>
             </div>

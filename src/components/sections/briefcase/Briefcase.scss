@@ -1,6 +1,23 @@
 //@import './src/sass/daiclover.scss';
 
 .Portafolio {
+  header {
+    height: auto;
+    nav {
+      #nav-tab {
+        a.nav-link {
+          &.active {
+            color: black;
+            font-weight: 600;
+          }
+
+          span {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
   .card {
     border: 1px solid #fb00798a;
     &:hover {

@@ -2,7 +2,6 @@
 
 .Inicio {
   .perfil {
-    // height: 100%;
     img#logo_marcaPnal {
       &:hover {
         background-image: url("../../../images/logos/daiclover4.png");
@@ -31,6 +30,9 @@
       &:hover {
         box-shadow: 0 4px 2px 0 rgba(93, 144, 190, 0.79), 0 6px 20px 0 rgba(13, 23, 148, 0.75);
       }
+    }
+    p > b {
+      color: purple;
     }
     .redes {
       padding: .25rem;

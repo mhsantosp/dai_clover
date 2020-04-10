@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dai_clover/static/css/main.0b0f16c8.chunk.css",
-    "main.js": "/dai_clover/static/js/main.0ab3b7f0.chunk.js",
-    "main.js.map": "/dai_clover/static/js/main.0ab3b7f0.chunk.js.map",
+    "main.css": "/dai_clover/static/css/main.447b7ea0.chunk.css",
+    "main.js": "/dai_clover/static/js/main.aaa5b32c.chunk.js",
+    "main.js.map": "/dai_clover/static/js/main.aaa5b32c.chunk.js.map",
     "runtime-main.js": "/dai_clover/static/js/runtime-main.a9cfa722.js",
     "runtime-main.js.map": "/dai_clover/static/js/runtime-main.a9cfa722.js.map",
     "static/js/2.7f67468f.chunk.js": "/dai_clover/static/js/2.7f67468f.chunk.js",
     "static/js/2.7f67468f.chunk.js.map": "/dai_clover/static/js/2.7f67468f.chunk.js.map",
     "index.html": "/dai_clover/index.html",
-    "precache-manifest.d94954dad820a225e6583a1779a19a68.js": "/dai_clover/precache-manifest.d94954dad820a225e6583a1779a19a68.js",
+    "precache-manifest.6c2100be9cb42ccfe480fc1c8e102a95.js": "/dai_clover/precache-manifest.6c2100be9cb42ccfe480fc1c8e102a95.js",
     "service-worker.js": "/dai_clover/service-worker.js",
-    "static/css/main.0b0f16c8.chunk.css.map": "/dai_clover/static/css/main.0b0f16c8.chunk.css.map",
+    "static/css/main.447b7ea0.chunk.css.map": "/dai_clover/static/css/main.447b7ea0.chunk.css.map",
     "static/js/2.7f67468f.chunk.js.LICENSE.txt": "/dai_clover/static/js/2.7f67468f.chunk.js.LICENSE.txt",
     "static/media/Certificado_Finalizacion_DlloWeb_SassCoffeescriptEmmet.jpg": "/dai_clover/static/media/Certificado_Finalizacion_DlloWeb_SassCoffeescriptEmmet.4753a0d9.jpg",
     "static/media/Diploma_Curso_de_SASS.jpg": "/dai_clover/static/media/Diploma_Curso_de_SASS.05c52177.jpg",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9cfa722.js",
     "static/js/2.7f67468f.chunk.js",
-    "static/css/main.0b0f16c8.chunk.css",
-    "static/js/main.0ab3b7f0.chunk.js"
+    "static/css/main.447b7ea0.chunk.css",
+    "static/js/main.aaa5b32c.chunk.js"
   ]
 }

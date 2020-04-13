@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "255d986652cc64c33f8f129651a7d569",
+    "revision": "fd699409b11e1df58b381f968444336f",
     "url": "/dai_clover/index.html"
   },
   {
-    "revision": "f9bc7f299aa6410339a6",
-    "url": "/dai_clover/static/css/main.447b7ea0.chunk.css"
+    "revision": "922a7e92cafdfe69109f",
+    "url": "/dai_clover/static/css/main.20e204e0.chunk.css"
   },
   {
-    "revision": "14218d3448df249ad516",
-    "url": "/dai_clover/static/js/2.7f67468f.chunk.js"
+    "revision": "f5fb5145fe5447ca186b",
+    "url": "/dai_clover/static/js/2.6a212565.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/dai_clover/static/js/2.7f67468f.chunk.js.LICENSE.txt"
+    "url": "/dai_clover/static/js/2.6a212565.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9bc7f299aa6410339a6",
-    "url": "/dai_clover/static/js/main.aaa5b32c.chunk.js"
+    "revision": "922a7e92cafdfe69109f",
+    "url": "/dai_clover/static/js/main.6636db0b.chunk.js"
   },
   {
     "revision": "9ef31afc977b3aa1619d",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "86eb83454ca08652ef3f82049859a404",
     "url": "/dai_clover/static/media/arandaMovie.86eb8345.png"
+  },
+  {
+    "revision": "9f04c0add0c426eb1ad38352be66485c",
+    "url": "/dai_clover/static/media/aseoseguro.9f04c0ad.png"
   },
   {
     "revision": "8184f2ea1e75abe6219eeee6355f3012",

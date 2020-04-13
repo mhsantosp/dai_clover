@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Briefcase.scss';
 import ebfactory from '../../../images/projects/web_design/ebfactory.png';
 import digitalbots from '../../../images/projects/web_design/digitalbots.png';
+import aseoseguro from '../../../images/projects/web_design/aseoseguro.png';
 import techbootcamp from '../../../images/projects/web_design/techBootcamp.png';
 import cartoons from '../../../images/projects/web_design/cartoons.png';
 import superheroes from '../../../images/projects/web_design/superheroes.png';
@@ -17,7 +18,7 @@ import card_presentation from '../../../images/projects/business_cards/card_pres
 class Briefcase extends Component {
   render() {
     return <section className="Portafolio" id="portafolio">
-      <div className="container py-5">
+      <div className="container contentgral">
         <h2 className="d-none">Portafolio</h2>
         <header>
           <nav className="navbar navbar-expand-lg navbar-light justify-content-center">
@@ -49,6 +50,16 @@ class Briefcase extends Component {
                     <div className="card-body">
                       <a href="http://digital-bots.com/" className="card-link" target="_blank">
                         <h5 className="card-title">Digital Bots</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col mb-4">
+                  <div className="card h-100">
+                    <img src={aseoseguro} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                      <a href="http://aseoseguro.com/" className="card-link" target="_blank">
+                        <h5 className="card-title">Aseo Seguro</h5>
                       </a>
                     </div>
                   </div>

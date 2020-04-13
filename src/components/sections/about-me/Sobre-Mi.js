@@ -12,7 +12,7 @@ import GestiGerencPytos from '../../../images/certificados/otros/Diplomado_Gesti
 class AboutMe extends Component {
   render() {
     return <section className="Sobre_Mi" id="sobreMi">
-      <div className="container py-5">
+      <div className="container contentgral">
         <h2 className="d-none">Sobre Mí</h2>
         <div className="row justify-content-around">
           <div className="col-sm-12 col-md-6 h-100 education">

@@ -40,61 +40,75 @@ body {
         min-height: calc(100% - 138px);
 
         section {
-          h1 {
-            font-family: 'Life Savers', cursive;
-          }
+          .contentgral {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
 
-          h2 {
-            font-family: 'Rye', cursive;
-          }
+            @media (max-width: 575.98px) {
+              padding: 15px;
+            }
 
-          h3 {
-            font-family: 'Merienda', cursive;
-          }
+            @media (min-width: 768px) and (max-width: 991.98px) {
+              padding-top: 2rem;
+              padding-bottom: 2rem;
+            }
 
-          h4 {
-            font-family: 'Crimson Text', serif;
-          }
+            h1 {
+              font-family: 'Life Savers', cursive;
+            }
 
-          h5 {
-            font-family: 'Fredericka the Great', cursive;
-          }
+            h2 {
+              font-family: 'Rye', cursive;
+            }
 
-          h6 {
-            font-family: 'Marck Script', cursive;
-          }
+            h3 {
+              font-family: 'Merienda', cursive;
+            }
 
-          // h1, h2, h3, h4, h5, h6 {
-          //   button {
-          //     font-family: 'Caveat', cursive;
-          //   }
-          // }
+            h4 {
+              font-family: 'Crimson Text', serif;
+            }
 
-          label, ul li {
-            font-family: 'Kalam', cursive;
-          }
+            h5 {
+              font-family: 'Fredericka the Great', cursive;
+            }
 
-          button {
-            font-family: 'Courgette', cursive;
-          }
+            h6 {
+              font-family: 'Marck Script', cursive;
+            }
 
-          p {
-            font-family: 'Comic Neue', cursive;
-            text-align: left;
-          }
+            // h1, h2, h3, h4, h5, h6 {
+            //   button {
+            //     font-family: 'Caveat', cursive;
+            //   }
+            // }
 
-          span {
-            font-family: 'Bellota', cursive;
-          }
+            label,
+            ul li {
+              font-family: 'Kalam', cursive;
+            }
 
-          a {
-            font-family: 'Fondamento', cursive;
+            button {
+              font-family: 'Courgette', cursive;
+            }
+
+            p {
+              font-family: 'Comic Neue', cursive;
+              text-align: left;
+            }
 
             span {
-              font-family: 'Dancing Script', cursive;
+              font-family: 'Bellota', cursive;
+            }
+
+            a {
+              font-family: 'Fondamento', cursive;
+
+              span {
+                font-family: 'Dancing Script', cursive;
+              }
             }
           }
-
         }
       }
 

@@ -2,11 +2,12 @@
   "name": "dai_clover",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://mhsantosp.github.io/dai_clover",
+  "homepage": "https://mhsantosp.github.io/dai_clover",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "breakpoint-sass": "^2.7.1",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",

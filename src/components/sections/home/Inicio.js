@@ -6,16 +6,15 @@ import torreCO from '../../../images/logos/Torre-icon.png';
 class Home extends Component {
   render() {
     return <section className="Inicio" id="home">
-      <div className="container py-5">
+      <div className="container contentgral">
         <h1 className="d-none"> Dai Clover - Maria Helena Santos Pineda - Portafolio</h1>
         <div className="row justify-content-around">
-          <div className="col-sm-12 col-md-4 d-flex align-items-center">
+          <div className="col-12 col-sm-12 col-md-5 d-flex align-items-center">
             <div className="container py-3 perfil">
               <img src={logotipo} id="logo_marcaPnal" />
             </div>
           </div>
-          <div className="col-md-1"></div>
-          <div className="col-sm-12 col-md-7 d-flex align-items-around">
+          <div className="col-12 col-sm-12 col-md-7 d-flex align-items-around">
             <div className="container my-auto perfil">
               <div className="photo"></div>
               <p>¡Hola! Soy <strong>Maria Helena</strong> <br/> <b>Desarrolladora Front End</b>. <br /> Me enfoco en la Maquetación, Diseño, Desarrollo y Administración de páginas web. <br/> Como persona, he sido <b>creativa y soñadora</b> toda mi vida. Gracias a que vengo de una familia humilde y amorosa, donde me inculcaron buenos principios y valores, sobre todo la ética y lealtad hacia mí y los que deciden brindarme su confianza.</p>

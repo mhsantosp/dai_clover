@@ -8,8 +8,29 @@
         background-repeat: no-repeat;
         width: 305px;
         height: 292px;
+
+        @media (max-width: 575.98px) {
+          padding: 0;
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          width: 246px;
+          height: 245px;
+          background-position: bottom center;
+          background-size: cover;
+        }
+      }
+
+      @media (max-width: 575.98px) {
+        width: 100%;
+        padding: 3rem;
+      }
+
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        width: 100%;
       }
     }
+
     .photo {
       background-repeat: no-repeat;
       background-image: url('../../../images/perfil/frond-maria.jpg');
@@ -27,42 +48,68 @@
       float: left;
       shape-outside: circle() margin-box;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
       &:hover {
         box-shadow: 0 4px 2px 0 rgba(93, 144, 190, 0.79), 0 6px 20px 0 rgba(13, 23, 148, 0.75);
       }
+
+      // Extra small devices (portrait phones, less than 576px)
+      @media (max-width: 575.98px) {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        margin-left: 0;
+      }
+
+      // Medium devices (tablets, 768px and up)
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        width: 130px;
+        height: 130px;
+        margin-left: 0;
+      }
     }
-    p > b {
+
+    p>b {
       color: purple;
     }
+
     .redes {
       padding: .25rem;
       font-size: 20px;
       list-style: none;
       margin: auto;
+
       span {
         display: flex;
         justify-content: center;
+
         a.btn-social {
           margin: .25rem;
           font-size: 20px;
+
           .fa-facebook-f {
             color: $facebook;
           }
+
           .fa-linkedin-in {
             color: $linkedin;
           }
+
           .fa-github {
             color: $github;
           }
+
           .torreCO {
             width: 25px;
             margin-top: -3px;
           }
+
           &:hover {
             i.fab {
               font-size: 25px;
               margin-top: -10px;
             }
+
             .torreCO {
               display: block;
               margin-top: -1px;

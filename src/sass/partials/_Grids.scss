@@ -1,15 +1,17 @@
-$wide_mobile: 480px;
+$mobi: 576px;
 $tab: 768px;
-$desk: 990px;
-$wide: 1280px;
+$desk: 992px;
+$wide: 1200px;
 $plusWide: 1400px;
 $ultraWide: 1640px;
 
 $tabletWidth: $tab;
 $tabletLandscapeWidth: $desk;
+
 $desktopWidth: $wide;
 $desktopWideWidth: $wide;
 
 $mobile: max-width $tab;
 $tablet: max-width $desk;
 $desktop: max-width $wide;
+

@@ -38,6 +38,7 @@
       width: 150px;
       height: 150px;
       margin: 15px;
+      margin-left: 0;
       background-color: #de2b9fbd;
       border: 6px solid white;
       border-top-color: #800080c9;
@@ -58,14 +59,12 @@
         width: 100px;
         height: 100px;
         margin: 10px;
-        margin-left: 0;
       }
 
       // Medium devices (tablets, 768px and up)
       @media (min-width: 768px) and (max-width: 991.98px) {
         width: 130px;
         height: 130px;
-        margin-left: 0;
       }
     }
 

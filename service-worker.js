@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dai_clover/precache-manifest.74f87599b77fe9e5da7c321a22ee6a94.js"
+  "/dai_clover/precache-manifest.5e4c1328d5a7bc3b494e5eab7dbc12fe.js"
 );
 
 self.addEventListener('message', (event) => {

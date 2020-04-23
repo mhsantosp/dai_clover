@@ -5,21 +5,46 @@
     h3 {
       margin-bottom: .75rem;
     }
+
+    h4.study {
+      font-family: 'Kalam', cursive !important;
+      font-size: 1rem;
+      text-align: left;
+
+      a {
+        font-family: 'Kalam', cursive !important;
+        text-decoration: none;
+        color: #212529;
+
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+
+    p.prom {
+      font-family: 'Courgette', cursive !important;
+      margin-top: .25rem;
+      margin-bottom: 1rem;
+      display: block;
+      font-size: 80%;
+      color: #6c757d;
+
+      &.prom:before {
+        content: "\2014\00A0";
+      }
+    }
+
     .accordion {
       button {
         text-decoration: none;
-      }
-      .card-body {
-        background-color: white;
-        background-image: url("../../../images/backgrounds/Page-Turner.svg"); /* background by SVGBackgrounds.com */
-        background-size: cover;
-        background-repeat: no-repeat;
-        figure {
-          img {}
+        .fa-glasses {
+          transform: rotate(10deg);
         }
       }
     }
   }
+
   div.skills {
     .cardWrapper {
       .card {
@@ -27,19 +52,24 @@
         perspective: 1500px;
         background-color: transparent;
         border: none;
+
         .more {
           display: none;
+
           &:checked~.content {
             transform: rotateY(180deg);
           }
         }
+
         .content {
           position: relative;
           width: 100%;
           height: 100%;
           transform-style: preserve-3d;
           transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
-          .front, .back {
+
+          .front,
+          .back {
             background-color: white;
             background-image: url("../../../images/backgrounds/Scattered-Forcefields.svg"); /* background by SVGBackgrounds.com */
             position: absolute;
@@ -49,36 +79,43 @@
             transform-style: preserve-3d;
             border-radius: 6px;
             border: 1px solid rgba(0, 0, 0, 0.125);
+
             .card-body {
               transform: translateZ(80px) scale(0.94);
-              
               width: 100%;
               display: flex;
               align-items: center;
+
               hr {
                 width: 100%;
                 margin-top: .15rem;
                 margin-bottom: .3rem;
               }
-              h4.card-title {}
-              h5.card-subtitle, .prom {
+
+              h5.card-subtitle,
+              .prom {
                 text-align: right;
               }
+
               p {
                 margin-bottom: .25rem;
               }
+
               p.prom {
                 margin-top: .25rem;
                 margin-bottom: 1rem;
                 display: block;
                 font-size: 80%;
                 color: #6c757d;
+
                 &.prom:before {
                   content: "\2014\00A0";
                 }
               }
+
               ul {
-                text-align: left;
+                // text-align: left;
+
                 li {
                   padding: .25rem .50rem;
                   background-color: transparent;
@@ -86,6 +123,7 @@
                 }
               }
             }
+
             .rotate-btn {
               background-color: #ec407a;
               z-index: 1;
@@ -99,24 +137,29 @@
               transition: all 0.2s ease-in-out;
               width: 40px;
               height: 40px;
+
               &:hover {
                 background-color: #e940ecd1;
                 box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
                 text-shadow: none;
               }
+
               &.return {
                 text-shadow: none;
+
                 &:hover {
                   background-color: #355cc9ad;
                   box-shadow: none;
                 }
               }
+
               i {
                 color: #fff;
                 font-size: 1.25rem;
               }
             }
           }
+
           .front {
             &:after {
               content: '';
@@ -129,6 +172,7 @@
               border-radius: 6px;
             }
           }
+
           .back {
             transform: rotateY(180deg);
           }
@@ -136,23 +180,29 @@
       }
     }
   }
+
   .redes {
     padding: .25rem;
     font-size: 20px;
     list-style: none;
     margin: auto;
+
     a.btn-social {
       margin: .25rem;
       font-size: 20px;
+
       .fa-facebook-f {
         color: $facebook;
       }
+
       .fa-linkedin-in {
         color: $linkedin;
       }
+
       .fa-github {
         color: $github;
       }
+
       &:hover {
         i.fab,
         .torreCO {

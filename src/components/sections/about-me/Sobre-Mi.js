@@ -26,11 +26,11 @@ class AboutMe extends Component {
                         <h4 className="study">Diseñar Páginas Web con HTML y JavaScript</h4>
                         <p className="prom">SENA, dic.2019</p>
                         <h4 className="study">Especialización Tecnológica en Pruebas de Software</h4>
-                        <p className="prom">SENA, Medellín sep.2018</p>
+                        <p className="prom">SENA, sep.2018</p>
                         <h4 className="study">Testing de Software</h4>
-                        <p className="prom">EAFIT, Medellín sep.2017</p>
+                        <p className="prom">EAFIT, sep.2017</p>
                         <h4 className="study">Ingeniería de Sistemas</h4>
-                        <p className="prom">Universidad Cooperativa de Colombia, Medellín mar.2017</p>
+                        <p className="prom">Universidad Cooperativa de Colombia, mar.2017</p>
                         <h4 className="study">Diplomado Marketing Digital</h4>
                         <p className="prom">Comfenalco Antioquia, nov.2016</p>
                         <h4 className="study">Diplomado Gestión y Gerencia de Proyectos</h4>

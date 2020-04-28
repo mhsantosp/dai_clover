@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/dai_clover/static/css/main.5fc5cc30.chunk.css",
-    "main.js": "/dai_clover/static/js/main.24b18afb.chunk.js",
-    "main.js.map": "/dai_clover/static/js/main.24b18afb.chunk.js.map",
+    "main.css": "/dai_clover/static/css/main.8e4da327.chunk.css",
+    "main.js": "/dai_clover/static/js/main.fe82a963.chunk.js",
+    "main.js.map": "/dai_clover/static/js/main.fe82a963.chunk.js.map",
     "runtime-main.js": "/dai_clover/static/js/runtime-main.a9cfa722.js",
     "runtime-main.js.map": "/dai_clover/static/js/runtime-main.a9cfa722.js.map",
-    "static/js/2.aa91e33f.chunk.js": "/dai_clover/static/js/2.aa91e33f.chunk.js",
-    "static/js/2.aa91e33f.chunk.js.map": "/dai_clover/static/js/2.aa91e33f.chunk.js.map",
+    "static/js/2.700722bb.chunk.js": "/dai_clover/static/js/2.700722bb.chunk.js",
+    "static/js/2.700722bb.chunk.js.map": "/dai_clover/static/js/2.700722bb.chunk.js.map",
     "index.html": "/dai_clover/index.html",
-    "precache-manifest.614d0ede7a1f9461249a5da33a170851.js": "/dai_clover/precache-manifest.614d0ede7a1f9461249a5da33a170851.js",
+    "precache-manifest.da99037654c4f3c8d8c3a8245e38e59f.js": "/dai_clover/precache-manifest.da99037654c4f3c8d8c3a8245e38e59f.js",
     "service-worker.js": "/dai_clover/service-worker.js",
-    "static/css/main.5fc5cc30.chunk.css.map": "/dai_clover/static/css/main.5fc5cc30.chunk.css.map",
-    "static/js/2.aa91e33f.chunk.js.LICENSE.txt": "/dai_clover/static/js/2.aa91e33f.chunk.js.LICENSE.txt",
+    "static/css/main.8e4da327.chunk.css.map": "/dai_clover/static/css/main.8e4da327.chunk.css.map",
+    "static/js/2.700722bb.chunk.js.LICENSE.txt": "/dai_clover/static/js/2.700722bb.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/dai_clover/static/media/Pattern-Randomized.aa7e45f4.svg",
     "static/media/AboutMe.scss": "/dai_clover/static/media/Scattered-Forcefields.49f4005d.svg",
     "static/media/arandaMovie.png": "/dai_clover/static/media/arandaMovie.86eb8345.png",
     "static/media/aseoseguro.png": "/dai_clover/static/media/aseoseguro.9f04c0ad.png",
+    "static/media/barriofiel.png": "/dai_clover/static/media/barriofiel.dff050a1.png",
     "static/media/bidcitieslab2019.png": "/dai_clover/static/media/bidcitieslab2019.8184f2ea.png",
     "static/media/card_aptos.png": "/dai_clover/static/media/card_aptos.34af0fe0.png",
     "static/media/card_presentation.jpeg": "/dai_clover/static/media/card_presentation.5554ad0e.jpeg",
@@ -28,14 +29,13 @@
     "static/media/innovacionnaranja.png": "/dai_clover/static/media/innovacionnaranja.cc6b78b6.png",
     "static/media/logo1.png": "/dai_clover/static/media/logo1.892fd6d2.png",
     "static/media/Header.scss": "/dai_clover/static/media/logo2.99ae230b.png",
-    "static/media/pwc.png": "/dai_clover/static/media/pwc.a98ccbae.png",
     "static/media/superheroes.png": "/dai_clover/static/media/superheroes.bf8d18c1.png",
     "static/media/techBootcamp.png": "/dai_clover/static/media/techBootcamp.c9111f39.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a9cfa722.js",
-    "static/js/2.aa91e33f.chunk.js",
-    "static/css/main.5fc5cc30.chunk.css",
-    "static/js/main.24b18afb.chunk.js"
+    "static/js/2.700722bb.chunk.js",
+    "static/css/main.8e4da327.chunk.css",
+    "static/js/main.fe82a963.chunk.js"
   ]
 }

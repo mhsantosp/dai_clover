@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80052b5df9e078bc49ea58b95c7328fd",
+    "revision": "936d395cd4c99944f68fac16b2b9f48a",
     "url": "/dai_clover/index.html"
   },
   {
-    "revision": "d04d5efb0c0e5a9ce9c0",
-    "url": "/dai_clover/static/css/main.5fc5cc30.chunk.css"
+    "revision": "20b356434a90f61aee69",
+    "url": "/dai_clover/static/css/main.8e4da327.chunk.css"
   },
   {
-    "revision": "7d205f319baf460fb162",
-    "url": "/dai_clover/static/js/2.aa91e33f.chunk.js"
+    "revision": "352bfdb2c3a1ce1c14a6",
+    "url": "/dai_clover/static/js/2.700722bb.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/dai_clover/static/js/2.aa91e33f.chunk.js.LICENSE.txt"
+    "url": "/dai_clover/static/js/2.700722bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d04d5efb0c0e5a9ce9c0",
-    "url": "/dai_clover/static/js/main.24b18afb.chunk.js"
+    "revision": "20b356434a90f61aee69",
+    "url": "/dai_clover/static/js/main.fe82a963.chunk.js"
   },
   {
     "revision": "9ef31afc977b3aa1619d",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9f04c0add0c426eb1ad38352be66485c",
     "url": "/dai_clover/static/media/aseoseguro.9f04c0ad.png"
+  },
+  {
+    "revision": "dff050a1619c7898dbe46f80238b7247",
+    "url": "/dai_clover/static/media/barriofiel.dff050a1.png"
   },
   {
     "revision": "8184f2ea1e75abe6219eeee6355f3012",
@@ -90,10 +94,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99ae230b1b5536b65666a4f0b89e6598",
     "url": "/dai_clover/static/media/logo2.99ae230b.png"
-  },
-  {
-    "revision": "a98ccbae4c306a981763757436f142ac",
-    "url": "/dai_clover/static/media/pwc.a98ccbae.png"
   },
   {
     "revision": "bf8d18c1e0cbd95130cf21fb5d1a0d2e",

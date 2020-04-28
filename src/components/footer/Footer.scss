@@ -41,8 +41,10 @@ footer.footer {
     border-top: 1px solid #00000054;
     background-color: #000000ad;
     font-size: 13px;
-    p {
-      margin-bottom: 0;
+    h6 {
+      a {
+        margin-left: 5px;
+      }
     }
   }
 }

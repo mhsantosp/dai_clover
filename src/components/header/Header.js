@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Header.scss';
 import {NavLink, withRouter} from 'react-router-dom'
 

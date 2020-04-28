@@ -71,6 +71,19 @@
     p>b {
       color: purple;
     }
+    p {
+      
+      a {
+        font-family: 'Comic Neue', cursive !important;
+        display: inline-block;
+        padding: 0;
+        color: #212529;
+        font-weight: bold;
+        &:hover {
+          color: purple;
+        }
+      }
+    }
 
     .redes {
       padding: .25rem;

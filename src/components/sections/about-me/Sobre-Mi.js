@@ -50,7 +50,7 @@ class AboutMe extends Component {
                     <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div className="card-body">
                         <h4 className="study">
-                          <a href="http://www.linkedin.com/learning/desarrollo-web-con-sass-coffeescript-y-emmet" target="_blank">Desarrollo Web con Sass, Coffeescript y Emmet</a>
+                          <a href="http://www.linkedin.com/learning/desarrollo-web-con-sass-coffeescript-y-emmet" target="_blank" rel="noopener noreferrer">Desarrollo Web con Sass, Coffeescript y Emmet</a>
                         </h4>
                         <p className="prom">Linkedin Learning, feb.2020</p>
                         <h4 className="study">Curso de SASS</h4>

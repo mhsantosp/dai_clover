@@ -10,7 +10,7 @@ import bidcitieslab2019 from '../../../images/projects/web_design/bidcitieslab20
 import innovacionnaranja from '../../../images/projects/web_design/innovacionnaranja.png';
 import drupalcamp from '../../../images/projects/web_design/drupalcamp.png';
 import arandaMovie from '../../../images/projects/web_design/arandaMovie.png';
-import pwc from '../../../images/projects/web_design/pwc.png';
+import barriofiel from '../../../images/projects/web_design/barriofiel.png';
 import logo1 from '../../../images/projects/logo_design/logo1.png';
 import card_aptos from '../../../images/projects/business_cards/card_aptos.png';
 import card_presentation from '../../../images/projects/business_cards/card_presentation.jpeg';
@@ -31,103 +31,24 @@ class Briefcase extends Component {
         </header>
         <div className="tab-content container" id="nav-tabContent">
           <div className="tab-pane fade show active" id="diseño-web" role="tabpanel" aria-labelledby="diseño-web-tab">
-            <h3 className="my-3">Algunos de los proyectos en el que participe laboralmente</h3>
+            <h3 className="my-3">Proyectos freelancer</h3>
             <div className="container">
               <div className="row row-cols-1 row-cols-md-3">
                 <div className="col mb-4">
                   <div className="card h-100">
-                    <img src={ebfactory} className="card-img-top" alt="..." />
+                    <img src={barriofiel} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <a href="http://www.ebfactory.com/" className="card-link" target="_blank">
-                        <h5 className="card-title">eBFactory</h5>
+                      <a href="https://barriofiel.com/" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">Barrio Fiel</h5>
                       </a>
                     </div>
                   </div>
                 </div>
-                <div className="col mb-4">
-                  <div className="card h-100">
-                    <img src={digitalbots} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <a href="http://digital-bots.com/" className="card-link" target="_blank">
-                        <h5 className="card-title">Digital Bots</h5>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col mb-4">
-                  <div className="card h-100">
-                    <img src={aseoseguro} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <a href="http://aseoseguro.com/" className="card-link" target="_blank">
-                        <h5 className="card-title">Aseo Seguro</h5>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col mb-4">
-                  <div className="card h-100">
-                    <img src={techbootcamp} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <a href="https://convocatorias.iadb.org/es/techbootcamp/inicio" className="card-link" target="_blank">
-                        <h5 className="card-title">Tech Bootcamp</h5>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col mb-4">
-                  <div className="card h-100">
-                    <img src={cartoons} className="card-img-top" alt="..." />
-                    <div className="card-body d-flex justify-content-center">
-                      <a href="https://convocatorias.iadb.org/en/cartoons-2019" className="card-link" target="_blank">
-                        <h5 className="card-title">Cartoons</h5>
-                      </a>
-                      <p>&nbsp;-&nbsp;</p>
-                      <a href="https://convocatorias.iadb.org/es/caricaturas-2019" className="card-link" target="_blank">
-                        <h5 className="card-title">Caricaturas</h5>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col mb-4">
-                  <div className="card h-100">
-                    <img src={superheroes} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <a href="https://convocatorias.iadb.org/en/superheroes" className="card-link" target="_blank">
-                        <h5 className="card-title">Superheroes</h5>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col mb-4">
-                  <div className="card h-100">
-                    <img src={bidcitieslab2019} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <a href="https://convocatorias.iadb.org/es/bidcitieslab2019" className="card-link" target="_blank">
-                        <h5 className="card-title">Bid Cities Lab 2019</h5>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col mb-4">
-                  <div className="card h-100">
-                    <img src={innovacionnaranja} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                      <a href="https://convocatorias.iadb.org/es/innovacionnaranja" className="card-link" target="_blank">
-                        <h5 className="card-title">Innovación Naranja</h5>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h3 className="my-3">Otros proyectos</h3>
-            <div className="container">
-              <div className="row row-cols-1 row-cols-md-3">
                 <div className="col mb-4">
                   <div className="card h-100">
                     <img src={drupalcamp} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <a href="https://drupalcamp.co/" className="card-link" target="_blank">
+                      <a href="https://drupalcamp.co/" className="card-link" target="_blank" rel="noopener noreferrer" >
                         <h5 className="card-title">Drupalcamp Colombia 2020</h5>
                       </a>
                     </div>
@@ -137,18 +58,97 @@ class Briefcase extends Component {
                   <div className="card h-100">
                     <img src={arandaMovie} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <a href="https://mhsantosp.github.io/prueba_movies/" className="card-link" target="_blank">
+                      <a href="https://mhsantosp.github.io/prueba_movies/" className="card-link" target="_blank" rel="noopener noreferrer" >
                         <h5 className="card-title">Aranda Movies</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 className="my-3">Algunos proyectos en los que participe laboralmente</h3>
+            <div className="container">
+              <div className="row row-cols-1 row-cols-md-3">
+                <div className="col mb-4">
+                  <div className="card h-100">
+                    <img src={ebfactory} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                      <a href="http://www.ebfactory.com/" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">eBFactory</h5>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col mb-4">
                   <div className="card h-100">
-                    <img src={pwc} className="card-img-top" alt="..." />
+                    <img src={digitalbots} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <a href="https://musing-euler-c02ea1.netlify.com/" className="card-link" target="_blank">
-                        <h5 className="card-title">PwC</h5>
+                      <a href="http://digital-bots.com/" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">Digital Bots</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col mb-4">
+                  <div className="card h-100">
+                    <img src={aseoseguro} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                      <a href="http://aseoseguro.com/" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">Aseo Seguro</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col mb-4">
+                  <div className="card h-100">
+                    <img src={techbootcamp} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                      <a href="https://convocatorias.iadb.org/es/techbootcamp/inicio" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">Tech Bootcamp</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col mb-4">
+                  <div className="card h-100">
+                    <img src={cartoons} className="card-img-top" alt="..." />
+                    <div className="card-body d-flex justify-content-center">
+                      <a href="https://convocatorias.iadb.org/en/cartoons-2019" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">Cartoons</h5>
+                      </a>
+                      <p>&nbsp;-&nbsp;</p>
+                      <a href="https://convocatorias.iadb.org/es/caricaturas-2019" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">Caricaturas</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col mb-4">
+                  <div className="card h-100">
+                    <img src={superheroes} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                      <a href="https://convocatorias.iadb.org/en/superheroes" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">Superheroes</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col mb-4">
+                  <div className="card h-100">
+                    <img src={bidcitieslab2019} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                      <a href="https://convocatorias.iadb.org/es/bidcitieslab2019" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">Bid Cities Lab 2019</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col mb-4">
+                  <div className="card h-100">
+                    <img src={innovacionnaranja} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                      <a href="https://convocatorias.iadb.org/es/innovacionnaranja" className="card-link" target="_blank" rel="noopener noreferrer" >
+                        <h5 className="card-title">Innovación Naranja</h5>
                       </a>
                     </div>
                   </div>

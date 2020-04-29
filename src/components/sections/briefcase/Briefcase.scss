@@ -3,6 +3,7 @@
 .Portafolio {
   header {
     height: auto;
+
     nav {
       #nav-tab {
         a.nav-link {
@@ -18,21 +19,42 @@
       }
     }
   }
+
   .card {
     border: 1px solid #fb00798a;
+
     &:hover {
       border: 1px solid rgba(44, 251, 0, 0.54);
-      //background-color: rgba(93, 211, 214, 0.54);
     }
+
     img.card-img-top {
       padding: .25rem;
     }
+
     .card-body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       .card-link {
         color: black;
+
         &:hover {
           color: #fb0079d5;
           font-weight: bold;
+        }
+        .card-title {
+          margin-bottom: 0;
+        }
+      }
+      span {
+        margin-bottom: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        a {
+          white-space: nowrap;
+          overflow: hidden;
+          margin: 0;
         }
       }
     }

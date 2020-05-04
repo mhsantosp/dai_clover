@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6587c498d29eb25e8a220f43d10c9659",
+    "revision": "491a35c32144cdba180407e68dfa0b3b",
     "url": "/dai_clover/index.html"
   },
   {

@@ -35,7 +35,7 @@ class Footer extends Component {
             <a className="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmhsantosp.github.io%2Fdai_clover" target="_blank" rel="nofollow noopener">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a className="facebook-messenger" href="/#facebook" target="_blank" rel="nofollow noopener">
+            <a className="facebook-messenger d-none" href="/#facebook" target="_blank" rel="nofollow noopener">
               <i className="fab fa-facebook-messenger"></i>
             </a>
           </span>

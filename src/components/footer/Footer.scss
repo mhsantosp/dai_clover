@@ -89,6 +89,10 @@ footer.footer {
             &.fa-facebook-f {
               color: $facebook;
             }
+
+            &.fa-twitter {
+              color: $twitter;
+            }
           }
 
           &.whatsapp:hover {
@@ -107,7 +111,7 @@ footer.footer {
             }
           }
           
-          &.facebook-twitter:hover {
+          &.twitter:hover {
             background-color: $twitter;
 
             i {

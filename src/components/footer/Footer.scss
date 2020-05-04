@@ -23,24 +23,9 @@ footer.footer {
         border-radius: 50%;
         width: 40px;
         height: auto;
-        // padding: 5px;
         margin: .2rem;
         display: flex;
         justify-content: center;
-      }
-
-      #facebook,
-      #e-mail {
-        //display: none;
-      }
-
-      &:hover {
-
-        #whatsapp,
-        #facebook,
-        #e-mail {
-          //display: block;
-        }
       }
     }
   }
@@ -57,19 +42,40 @@ footer.footer {
       display: flex;
       align-items: center;
 
-      span.autor {
-        // background-color: red;
-      }
-
       span.share-card {
         display: flex;
+        position: fixed;
+        z-index: 1035;
+
+        @media (max-width: 575.98px) {
+          top: 4.5rem;
+          right: 1rem;
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          top: 1.3rem;
+          right: 12rem;
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          top: 1.3rem;
+          right: 7rem;
+        }
+
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          top: 1.2em;
+          right: 19rem;
+        }
+
+        @media (min-width: 1200px) and (max-width: 1440px) {
+          top: 1.2em;
+          right: 24rem;
+        }
 
         a {
           padding: .1rem .3rem;
           width: 27.8px;
           height: 25px;
-          // margin-right: 3px;
-          // margin-left: 3px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -93,6 +99,14 @@ footer.footer {
             &.fa-twitter {
               color: $twitter;
             }
+
+            &.fa-linkedin-in {
+              color: $linkedin;
+            }
+
+            &.fa-telegram-plane {
+              color: $telegram;
+            }
           }
 
           &.whatsapp:hover {
@@ -110,9 +124,25 @@ footer.footer {
               color: white;
             }
           }
-          
+
           &.twitter:hover {
             background-color: $twitter;
+
+            i {
+              color: white;
+            }
+          }
+
+          &.linkedin:hover {
+            background-color: $linkedin;
+
+            i {
+              color: white;
+            }
+          }
+
+          &.telegram:hover {
+            background-color: $telegram;
 
             i {
               color: white;

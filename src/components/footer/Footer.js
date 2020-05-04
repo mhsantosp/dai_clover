@@ -35,8 +35,14 @@ class Footer extends Component {
             <a className="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmhsantosp.github.io%2Fdai_clover" target="_blank" rel="nofollow noopener">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a className="twitter" href="https://twitter.com/intent/tweet/?text=url=https%3A%2F%2Fmhsantosp.github.io%2Fdai_clover%2F" target="_blank" rel="nofollow noopener">
+            <a className="twitter" href="https://twitter.com/intent/tweet/?text=https%3A%2F%2Fmhsantosp.github.io%2Fdai_clover%2F" target="_blank" rel="nofollow noopener">
               <i className="fab fa-twitter"></i>
+            </a>
+            <a className="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fmhsantosp.github.io%2Fdai_clover%2F" target="_blank" rel="nofollow noopener">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a className="telegram" href="https://telegram.me/share/url?text=https%3A%2F%2Fmhsantosp.github.io%2Fdai_clover%2F" target="_blank" rel="nofollow noopener">
+              <i className="fab fa-telegram-plane"></i>
             </a>
           </span>
         </h6>

@@ -83,16 +83,16 @@ footer.footer {
             justify-content: center;
 
             &.fa-whatsapp {
-              color: #28a745;
+              color: $whatsapp;
             }
 
             &.fa-facebook-f {
-              color: #007bff;
+              color: $facebook;
             }
           }
 
           &.whatsapp:hover {
-            background-color: #28a745;
+            background-color: $whatsapp;
 
             i {
               color: white;
@@ -100,15 +100,15 @@ footer.footer {
           }
 
           &.facebook:hover {
-            background-color: #007bff;
+            background-color: $facebook;
 
             i {
               color: white;
             }
           }
           
-          &.facebook-messenger:hover {
-            background-color: #007bff;
+          &.facebook-twitter:hover {
+            background-color: $twitter;
 
             i {
               color: white;

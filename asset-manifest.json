@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dai_clover/static/css/main.73b3540b.chunk.css",
-    "main.js": "/dai_clover/static/js/main.7ae10189.chunk.js",
-    "main.js.map": "/dai_clover/static/js/main.7ae10189.chunk.js.map",
+    "main.css": "/dai_clover/static/css/main.8a8ffd6a.chunk.css",
+    "main.js": "/dai_clover/static/js/main.e3258328.chunk.js",
+    "main.js.map": "/dai_clover/static/js/main.e3258328.chunk.js.map",
     "runtime-main.js": "/dai_clover/static/js/runtime-main.a9cfa722.js",
     "runtime-main.js.map": "/dai_clover/static/js/runtime-main.a9cfa722.js.map",
     "static/js/2.700722bb.chunk.js": "/dai_clover/static/js/2.700722bb.chunk.js",
     "static/js/2.700722bb.chunk.js.map": "/dai_clover/static/js/2.700722bb.chunk.js.map",
     "index.html": "/dai_clover/index.html",
-    "precache-manifest.67f25167dbefc47cc86195b81eb3534e.js": "/dai_clover/precache-manifest.67f25167dbefc47cc86195b81eb3534e.js",
+    "precache-manifest.2bea056e8ed0307e9f9bab14a4cc49d9.js": "/dai_clover/precache-manifest.2bea056e8ed0307e9f9bab14a4cc49d9.js",
     "service-worker.js": "/dai_clover/service-worker.js",
-    "static/css/main.73b3540b.chunk.css.map": "/dai_clover/static/css/main.73b3540b.chunk.css.map",
+    "static/css/main.8a8ffd6a.chunk.css.map": "/dai_clover/static/css/main.8a8ffd6a.chunk.css.map",
     "static/js/2.700722bb.chunk.js.LICENSE.txt": "/dai_clover/static/js/2.700722bb.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/dai_clover/static/media/Pattern-Randomized.aa7e45f4.svg",
     "static/media/AboutMe.scss": "/dai_clover/static/media/Scattered-Forcefields.49f4005d.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9cfa722.js",
     "static/js/2.700722bb.chunk.js",
-    "static/css/main.73b3540b.chunk.css",
-    "static/js/main.7ae10189.chunk.js"
+    "static/css/main.8a8ffd6a.chunk.css",
+    "static/js/main.e3258328.chunk.js"
   ]
 }

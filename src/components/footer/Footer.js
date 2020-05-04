@@ -10,7 +10,7 @@ class Footer extends Component {
             <div className="container" id="contacto">
               <div className="box-contacto">
                 <div className="box-contacto_button">
-                  <a className="btn btn-outline-success btn-circle btn-lg" id="whatsapp" href="https://api.whatsapp.com/send?phone=573147683344&text=Hola,%20analicé%20su%20portafolio%20y%20estoy%20interesada(o)%20en%20cotizar%20un%20proyecto.%20Espero%20su%20respuesta,%20gracias." role="button" target="_blank" rel="noopener noreferrer" >
+                  <a className="btn btn-outline-success btn-circle btn-lg" id="whatsapp" href="https://api.whatsapp.com/send?phone=573193946978&text=Hola,%20analicé%20su%20portafolio%20y%20estoy%20interesada(o)%20en%20cotizar%20un%20proyecto.%20Espero%20su%20respuesta,%20gracias." role="button" target="_blank" rel="noopener noreferrer" >
                     <i className="fab fa-whatsapp"></i>
                   </a>
                   <a className="btn btn-outline-primary btn-circle btn-lg" id="facebook" href="https://m.me/msantospineda" role="button" target="_blank" rel="noopener noreferrer" >
@@ -26,10 +26,19 @@ class Footer extends Component {
         </div>
       </div>
       <div className="footer-copyright py-3">
-        <h6 className="text-center m-0">© Copyright 2020 - Dai Clover - 
-          {/* <a href="/#facebook" target="_blank" rel="nofollow noopener">
-            <i class="fab fa-whatsapp"></i>
-          </a> */}
+        <h6 className=" m-0">
+          <span className="autor">© Copyright 2020 - Dai Clover&nbsp;</span>
+          <span className="share-card">
+            <a className="whatsapp" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fmhsantosp.github.io%2Fdai_clover" target="_blank" rel="nofollow noopener">
+              <i className="fab fa-whatsapp"></i>
+            </a>
+            <a className="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmhsantosp.github.io%2Fdai_clover" target="_blank" rel="nofollow noopener">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a className="facebook-messenger" href="/#facebook" target="_blank" rel="nofollow noopener">
+              <i className="fab fa-facebook-messenger"></i>
+            </a>
+          </span>
         </h6>
       </div>
     </footer>

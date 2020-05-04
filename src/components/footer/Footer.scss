@@ -3,6 +3,7 @@
 footer.footer {
   background-color: #9a9a9aab;
   color: black;
+
   .contenido {
     .box-contacto {
       height: auto;
@@ -17,6 +18,7 @@ footer.footer {
       right: 1%;
       bottom: 5%;
       z-index: 5;
+
       .btn-circle {
         border-radius: 50%;
         width: 40px;
@@ -26,24 +28,93 @@ footer.footer {
         display: flex;
         justify-content: center;
       }
-      #facebook, #e-mail {
+
+      #facebook,
+      #e-mail {
         //display: none;
       }
+
       &:hover {
-        #whatsapp, #facebook, #e-mail {
+
+        #whatsapp,
+        #facebook,
+        #e-mail {
           //display: block;
         }
       }
     }
   }
+
   .footer-copyright {
     color: white;
     border-top: 1px solid #00000054;
     background-color: #000000ad;
     font-size: 13px;
+    display: flex;
+    justify-content: center;
+
     h6 {
-      a {
-        margin-left: 5px;
+      display: flex;
+      align-items: center;
+
+      span.autor {
+        // background-color: red;
+      }
+
+      span.share-card {
+        display: flex;
+
+        a {
+          padding: .1rem .3rem;
+          width: 27.8px;
+          height: 25px;
+          // margin-right: 3px;
+          // margin-left: 3px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          border-radius: 4px;
+
+          i {
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &.fa-whatsapp {
+              color: #28a745;
+            }
+
+            &.fa-facebook-f {
+              color: #007bff;
+            }
+          }
+
+          &.whatsapp:hover {
+            background-color: #28a745;
+
+            i {
+              color: white;
+            }
+          }
+
+          &.facebook:hover {
+            background-color: #007bff;
+
+            i {
+              color: white;
+            }
+          }
+          
+          &.facebook-messenger:hover {
+            background-color: #007bff;
+
+            i {
+              color: white;
+            }
+          }
+        }
       }
     }
   }

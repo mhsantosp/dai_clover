@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aee147bc09ec1669b5a4739ac9f6dfff",
+    "revision": "32b3867e23617a54c36dc786ff841787",
     "url": "/dai_clover/index.html"
   },
   {
-    "revision": "742b6e0a26c3980f3b0c",
-    "url": "/dai_clover/static/css/main.36e2f397.chunk.css"
+    "revision": "885e4d7d8c5f53a086f3",
+    "url": "/dai_clover/static/css/main.e5e51158.chunk.css"
   },
   {
     "revision": "352bfdb2c3a1ce1c14a6",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dai_clover/static/js/2.700722bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "742b6e0a26c3980f3b0c",
-    "url": "/dai_clover/static/js/main.8075fb79.chunk.js"
+    "revision": "885e4d7d8c5f53a086f3",
+    "url": "/dai_clover/static/js/main.fe691401.chunk.js"
   },
   {
     "revision": "9ef31afc977b3aa1619d",

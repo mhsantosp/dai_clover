@@ -53,8 +53,10 @@ class AboutMe extends Component {
                           <a href="http://www.linkedin.com/learning/desarrollo-web-con-sass-coffeescript-y-emmet" target="_blank" rel="noopener noreferrer">Desarrollo Web con Sass, Coffeescript y Emmet</a>
                         </h4>
                         <p className="prom">Linkedin Learning, feb.2020</p>
-                        <h4 className="study">Curso de SASS</h4>
-                        <p className="prom">Platzi, nov.2018</p>
+                        <h4 className="study">
+                          <a href="https://platzi.com/@msantospineda/curso/1244-sass/diploma/detalle/" target="_blank" rel="noopener noreferrer">Curso de SASS</a>
+                        </h4>
+                        <p className="prom">Platzi, nov.2020</p>
                       </div>
                     </div>
                   </div>
@@ -65,7 +67,7 @@ class AboutMe extends Component {
           
           <div className="col-sm-12 col-md-6 h-100 skills">
             <div className="container my-3">
-              <h3 className="card-title"><i className="fas fa-laptop-code"></i>&nbsp;Habilidades</h3>
+              <h3 className="card-title"><i className="fas fa-code"></i>&nbsp;Habilidades</h3>
               <div className="container cardWrapper p-0">
                 <div className="card card-action">
                   <input type="checkbox" id="cardBtn" className="more" />
@@ -75,10 +77,11 @@ class AboutMe extends Component {
                         <div className="container-fluid">
                           <ul className="list-group list-group-flush w-100">
                             <li className="list-group-item">Maquetación Web</li>
-                            <li className="list-group-item">Diseño Web</li>
                             <li className="list-group-item">Diseño de Interfaces</li>
+                            <li className="list-group-item">Diseño Web</li>
                             <li className="list-group-item">HTML5</li>
                             <li className="list-group-item">CSS3</li>
+                            <li className="list-group-item">JavaScript</li>
                             <li className="list-group-item">Bootstrap</li>
                             <li className="list-group-item">SASS</li>
                           </ul>
@@ -92,13 +95,14 @@ class AboutMe extends Component {
                       <div className="card-body">
                         <div className="container-fluid">
                           <ul className="list-group list-group-flush w-100">
-                            <li className="list-group-item">JavaScript</li>
                             <li className="list-group-item">Node.js</li>
                             <li className="list-group-item">NPM (Gestión de paquetes Node.js)</li>
                             <li className="list-group-item">React.js</li>
                             <li className="list-group-item">Vue.js</li>
                             <li className="list-group-item">Git</li>
                             <li className="list-group-item">GitHub</li>
+                            <li className="list-group-item">Materialize</li>
+                            <li className="list-group-item">Material-UI</li>
                           </ul>
                         </div>
                       </div>

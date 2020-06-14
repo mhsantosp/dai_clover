@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dai_clover/static/css/main.e5e51158.chunk.css",
-    "main.js": "/dai_clover/static/js/main.fe691401.chunk.js",
-    "main.js.map": "/dai_clover/static/js/main.fe691401.chunk.js.map",
+    "main.js": "/dai_clover/static/js/main.699f437c.chunk.js",
+    "main.js.map": "/dai_clover/static/js/main.699f437c.chunk.js.map",
     "runtime-main.js": "/dai_clover/static/js/runtime-main.a9cfa722.js",
     "runtime-main.js.map": "/dai_clover/static/js/runtime-main.a9cfa722.js.map",
     "static/js/2.700722bb.chunk.js": "/dai_clover/static/js/2.700722bb.chunk.js",
     "static/js/2.700722bb.chunk.js.map": "/dai_clover/static/js/2.700722bb.chunk.js.map",
     "index.html": "/dai_clover/index.html",
-    "precache-manifest.b689034bee1674f75fd5b9016a653ad2.js": "/dai_clover/precache-manifest.b689034bee1674f75fd5b9016a653ad2.js",
+    "precache-manifest.0867ffb3566cc8c44e2b9a5c91c3dd2c.js": "/dai_clover/precache-manifest.0867ffb3566cc8c44e2b9a5c91c3dd2c.js",
     "service-worker.js": "/dai_clover/service-worker.js",
     "static/css/main.e5e51158.chunk.css.map": "/dai_clover/static/css/main.e5e51158.chunk.css.map",
     "static/js/2.700722bb.chunk.js.LICENSE.txt": "/dai_clover/static/js/2.700722bb.chunk.js.LICENSE.txt",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.a9cfa722.js",
     "static/js/2.700722bb.chunk.js",
     "static/css/main.e5e51158.chunk.css",
-    "static/js/main.fe691401.chunk.js"
+    "static/js/main.699f437c.chunk.js"
   ]
 }

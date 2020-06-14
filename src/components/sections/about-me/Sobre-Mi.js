@@ -56,7 +56,11 @@ class AboutMe extends Component {
                         <h4 className="study">
                           <a href="https://platzi.com/@msantospineda/curso/1244-sass/diploma/detalle/" target="_blank" rel="noopener noreferrer">Curso de SASS</a>
                         </h4>
-                        <p className="prom">Platzi, nov.2020</p>
+                        <p className="prom">Platzi, may.2020</p>
+                        <h4 className="study">
+                          <a href="https://platzi.com/@msantospineda/curso/1557-git-github/diploma/detalle/" target="_blank" rel="noopener noreferrer">Curso Profesional de Git y GitHub</a>
+                        </h4>
+                        <p className="prom">Platzi, jun.2020</p>
                       </div>
                     </div>
                   </div>

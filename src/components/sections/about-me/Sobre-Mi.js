@@ -31,10 +31,10 @@ class AboutMe extends Component {
                         <p className="prom">EAFIT, sep.2017</p>
                         <h4 className="study">Ingeniería de Sistemas</h4>
                         <p className="prom">Universidad Cooperativa de Colombia, mar.2017</p>
-                        <h4 className="study">Diplomado Marketing Digital</h4>
-                        <p className="prom">Comfenalco Antioquia, nov.2016</p>
-                        <h4 className="study">Diplomado Gestión y Gerencia de Proyectos</h4>
-                        <p className="prom">Comfenalco Antioquia, jul.2016</p>
+                        <h4 className="study d-none">Diplomado Marketing Digital</h4>
+                        <p className="prom d-none">Comfenalco Antioquia, nov.2016</p>
+                        <h4 className="study d-none">Diplomado Gestión y Gerencia de Proyectos</h4>
+                        <p className="prom d-none">Comfenalco Antioquia, jul.2016</p>
                       </div>
                     </div>
                   </div>
@@ -50,17 +50,29 @@ class AboutMe extends Component {
                     <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                       <div className="card-body">
                         <h4 className="study">
-                          <a href="http://www.linkedin.com/learning/desarrollo-web-con-sass-coffeescript-y-emmet" target="_blank" rel="noopener noreferrer">Desarrollo Web con Sass, Coffeescript y Emmet</a>
+                          <a href="https://makaia.org/portfolio/academia-geek/" target="_blank" rel="nofollow noopener noreferrer">Desarrollo Web Back End con énfasis en Node.js</a>
                         </h4>
-                        <p className="prom">Linkedin Learning, feb.2020</p>
+                        <p className="prom">Academia Geek, en curso 2021-1</p>
                         <h4 className="study">
-                          <a href="https://platzi.com/@msantospineda/curso/1244-sass/diploma/detalle/" target="_blank" rel="noopener noreferrer">Curso de SASS</a>
+                          <a href="https://makaia.org/portfolio/academia-geek/" target="_blank" rel="nofollow noopener noreferrer">Desarrollo Front End en React.js y aplicación de herramientas Desing Thinking</a>
+                        </h4>
+                        <p className="prom">Academia Geek, dic.2020-2</p>
+                        <h4 className="study">
+                          <a href="https://platzi.com/p/msantospineda/curso/1650-prework-2019/diploma/detalle/" target="_blank" rel="nofollow noopener noreferrer">Curso de Prework: Buenas prácticas y entorno de desarrollo</a>
+                        </h4>
+                        <p className="prom">Platzi, ago.2020</p>
+                        <h4 className="study">
+                          <a href="https://platzi.com/@msantospineda/curso/1557-git-github/diploma/detalle/" target="_blank" rel="nofollow noopener noreferrer">Curso Profesional de Git y GitHub</a>
+                        </h4>
+                        <p className="prom">Platzi, jun.2020</p>
+                        <h4 className="study">
+                          <a href="https://platzi.com/@msantospineda/curso/1244-sass/diploma/detalle/" target="_blank" rel="nofollow noopener noreferrer">Curso de SASS</a>
                         </h4>
                         <p className="prom">Platzi, may.2020</p>
                         <h4 className="study">
-                          <a href="https://platzi.com/@msantospineda/curso/1557-git-github/diploma/detalle/" target="_blank" rel="noopener noreferrer">Curso Profesional de Git y GitHub</a>
+                          <a href="http://www.linkedin.com/learning/desarrollo-web-con-sass-coffeescript-y-emmet" target="_blank" rel="nofollow noopener noreferrer">Desarrollo Web con Sass, Coffeescript y Emmet</a>
                         </h4>
-                        <p className="prom">Platzi, jun.2020</p>
+                        <p className="prom">Linkedin Learning, feb.2020</p>
                       </div>
                     </div>
                   </div>

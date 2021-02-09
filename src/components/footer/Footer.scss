@@ -46,6 +46,8 @@ footer.footer {
         display: flex;
         position: fixed;
         z-index: 1035;
+        top: 1.2em;
+        right: 40rem;
 
         @media (max-width: 575.98px) {
           top: 4.5rem;
@@ -68,7 +70,7 @@ footer.footer {
         }
 
         @media (min-width: 1200px) and (max-width: 1440px) {
-          top: 1.2em;
+          top: 1.25em;
           right: 24rem;
         }
 

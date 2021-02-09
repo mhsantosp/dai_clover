@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e60572898a3f8878127d3c51a017818",
+    "revision": "c120ec5f8668df4b0eeffa75558aa555",
     "url": "/dai_clover/index.html"
   },
   {
-    "revision": "f7dd5fd8376a9ceee4f3",
-    "url": "/dai_clover/static/css/main.e5e51158.chunk.css"
+    "revision": "30dbf1c1e187b226a822",
+    "url": "/dai_clover/static/css/main.63a87dee.chunk.css"
   },
   {
-    "revision": "352bfdb2c3a1ce1c14a6",
-    "url": "/dai_clover/static/js/2.700722bb.chunk.js"
+    "revision": "c8861a37e2b62ebed0cd",
+    "url": "/dai_clover/static/js/2.3663abfc.chunk.js"
   },
   {
-    "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/dai_clover/static/js/2.700722bb.chunk.js.LICENSE.txt"
+    "revision": "9b318b6fb13190fe82c0677e9264b3c7",
+    "url": "/dai_clover/static/js/2.3663abfc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7dd5fd8376a9ceee4f3",
-    "url": "/dai_clover/static/js/main.699f437c.chunk.js"
+    "revision": "30dbf1c1e187b226a822",
+    "url": "/dai_clover/static/js/main.ed83cb04.chunk.js"
   },
   {
-    "revision": "9ef31afc977b3aa1619d",
-    "url": "/dai_clover/static/js/runtime-main.a9cfa722.js"
+    "revision": "fb55027c3e854155313a",
+    "url": "/dai_clover/static/js/runtime-main.5fe8a7db.js"
   },
   {
     "revision": "aa7e45f453ad44145c37f233ac3c0366",

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dai_clover/static/css/main.e5e51158.chunk.css",
-    "main.js": "/dai_clover/static/js/main.699f437c.chunk.js",
-    "main.js.map": "/dai_clover/static/js/main.699f437c.chunk.js.map",
-    "runtime-main.js": "/dai_clover/static/js/runtime-main.a9cfa722.js",
-    "runtime-main.js.map": "/dai_clover/static/js/runtime-main.a9cfa722.js.map",
-    "static/js/2.700722bb.chunk.js": "/dai_clover/static/js/2.700722bb.chunk.js",
-    "static/js/2.700722bb.chunk.js.map": "/dai_clover/static/js/2.700722bb.chunk.js.map",
+    "main.css": "/dai_clover/static/css/main.63a87dee.chunk.css",
+    "main.js": "/dai_clover/static/js/main.ed83cb04.chunk.js",
+    "main.js.map": "/dai_clover/static/js/main.ed83cb04.chunk.js.map",
+    "runtime-main.js": "/dai_clover/static/js/runtime-main.5fe8a7db.js",
+    "runtime-main.js.map": "/dai_clover/static/js/runtime-main.5fe8a7db.js.map",
+    "static/js/2.3663abfc.chunk.js": "/dai_clover/static/js/2.3663abfc.chunk.js",
+    "static/js/2.3663abfc.chunk.js.map": "/dai_clover/static/js/2.3663abfc.chunk.js.map",
     "index.html": "/dai_clover/index.html",
-    "precache-manifest.0867ffb3566cc8c44e2b9a5c91c3dd2c.js": "/dai_clover/precache-manifest.0867ffb3566cc8c44e2b9a5c91c3dd2c.js",
+    "precache-manifest.b48df77b986c55747d435ccaff74f126.js": "/dai_clover/precache-manifest.b48df77b986c55747d435ccaff74f126.js",
     "service-worker.js": "/dai_clover/service-worker.js",
-    "static/css/main.e5e51158.chunk.css.map": "/dai_clover/static/css/main.e5e51158.chunk.css.map",
-    "static/js/2.700722bb.chunk.js.LICENSE.txt": "/dai_clover/static/js/2.700722bb.chunk.js.LICENSE.txt",
+    "static/css/main.63a87dee.chunk.css.map": "/dai_clover/static/css/main.63a87dee.chunk.css.map",
+    "static/js/2.3663abfc.chunk.js.LICENSE.txt": "/dai_clover/static/js/2.3663abfc.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/dai_clover/static/media/Pattern-Randomized.aa7e45f4.svg",
     "static/media/AboutMe.scss": "/dai_clover/static/media/Scattered-Forcefields.49f4005d.svg",
     "static/media/arandaMovie.png": "/dai_clover/static/media/arandaMovie.86eb8345.png",
@@ -33,9 +33,9 @@
     "static/media/techBootcamp.png": "/dai_clover/static/media/techBootcamp.c9111f39.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9cfa722.js",
-    "static/js/2.700722bb.chunk.js",
-    "static/css/main.e5e51158.chunk.css",
-    "static/js/main.699f437c.chunk.js"
+    "static/js/runtime-main.5fe8a7db.js",
+    "static/js/2.3663abfc.chunk.js",
+    "static/css/main.63a87dee.chunk.css",
+    "static/js/main.ed83cb04.chunk.js"
   ]
 }

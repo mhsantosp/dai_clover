@@ -23,15 +23,15 @@ class Header extends React.Component {
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul className="navbar-nav">
-                <li className={this.getNavLinkClass("/dai_clover/"), "nav-item"}>
+                <li className={"nav-item" + this.getNavLinkClass("/dai_clover/")}>
                   <NavLink to="/dai_clover/" className="nav-link" id="navLink-1" onClick={this.menuCollase} >
                     <i className="fas fa-home"></i>&nbsp;Inicio <span className="sr-only">(current)</span>
                   </NavLink>
                 </li>
-                <li className={this.getNavLinkClass("/dai_clover/Sobre-Mi"), "nav-item"}>
+                <li className={"nav-item" + this.getNavLinkClass("/dai_clover/Sobre-Mi")}>
                   <NavLink to="/dai_clover/Sobre-Mi" className="nav-link" id="navLink-2" onClick={this.menuCollase} >Sobre Mí</NavLink>
                 </li>
-                <li className={this.getNavLinkClass("/dai_clover/Portafolio"), "nav-item"}>
+                <li className={"nav-item" + this.getNavLinkClass("/dai_clover/Portafolio")}>
                   <NavLink to="/dai_clover/Portafolio" className="nav-link" id="navLink-3" onClick={this.menuCollase} >Portafolio</NavLink>
                 </li>
               </ul>

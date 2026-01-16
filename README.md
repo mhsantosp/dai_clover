@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Versión
+
+Versión actual: **2.0.0** 15/01/2026
+
+Cambios principales respecto a la versión 1.x:
+- Actualizado a Node 24.11.1 (definido en `engines.node`).
+- Actualizado React a 18.2.0 y `react-scripts` a 5.0.1.
+- Migración de `node-sass` a `sass` (1.79.0).
+- Limpieza de warnings de consola y ESLint.
+
 ## Available Scripts
 
 In the project directory, you can run:
